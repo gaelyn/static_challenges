@@ -1,13 +1,64 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  float: top;
+  background-color: black;
+  color: white;
+}
+
+#login {
+  float: right;
+  background-color: green;
+  text-decoration: none;
+  padding: 17px
+}
+
 nav {
-  background-color: darkblue;
+  float: top;
+  background-color: navy;
+  text-align: center;
   overflow: hidden;
+  padding: 17px;
 }
 
 nav a {
-  float: center;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 100px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 19px;
+}
+
+.main-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#museum-image {
+  max-width: 100%;
+  height: 600px;
+}
+
+#image-title {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.row {
+  background-color: white;
+  color: black;
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 23px;
 }
